@@ -18,3 +18,4 @@ Route::get('about-me', function () {
     return view('about_me');
 })->name('about-me');
 Route::view('projects', 'projects')->name('projects');
+
